@@ -1,11 +1,28 @@
 {
-  "name": "api",
+  "name": "@alwolf/minecraftpfp_transparent_api",
   "version": "1.0.0",
   "main": "main.js",
   "license": "MIT",
+  "author": {
+    "name": "alwolf",
+    "email": "alwolf@outlook.com",
+    "url": "https://github.com/yalwolf"
+  },
+  "description": "A transparent API for Minecraft player head images",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yalwolf/minecraftpfp_transparent_api"
+  },
+  "keywords": [
+    "minecraft",
+    "image",
+    "transparent",
+    "api"
+  ],
   "dependencies": {
-    "canvas": "^2.11.2",
-    "cheerio": "^1.0.0-rc.12",
     "express": "^4.19.2",
     "puppeteer": "^22.13.1"
   }

@@ -62,6 +62,9 @@ const app = express();
 
 app.get('/getMCpfp', async (req, res) => {
     const name = req.query.name;
+    if(!name){
+        return res.status(500).json({ error: 'name is null' });
+    }
     const imageBuffer = await convertCanvasToImage(name);
     const rbgResultData = await removeBg(imageBuffer);
 
