@@ -8,7 +8,7 @@ Minecraft PFP 透明 NodeJS API
 ## 使用方法
 
 
-请前往“removeBg”获取API并填写后即可使用
+请前往“[removeBg](https://www.remove.bg/api)”获取API并填写后即可使用
 
 1. 安装依赖
 
@@ -21,3 +21,13 @@ npm install
 ```Js
 headers: { "X-Api-Key": "API-KEY" },
 ```
+
+```bash
+# 输入以下内容使用
+node main.js
+```
+
+## 感谢
+[MinecraftPFP](https://www.minecraftpfp.com/)
+
+[removeBg](https://www.remove.bg/)
